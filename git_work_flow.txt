@@ -1,9 +1,0 @@
-连接本地与远程仓库：
-git status:查看文件状态
-	文件状态：working dir（本地文件，可供编辑），index(暂存区)，HEAD（本地仓库）（接下来的代码是用来将在本地编辑好的文件一步一步的推向远程仓库，即github）
-git add <filename>:将本地文件推送到index
-git commit -m "代码提交信息":将index中的文件推送到本地仓库并添加描述信息
-git remote add origin <server>：将本地仓库与远程仓库连接
-	server的地址从github中创建的repository中复制
-git push origin master ：把改动推送到master中
-		
